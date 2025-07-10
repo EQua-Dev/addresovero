@@ -108,7 +108,7 @@ class LocationForegroundService : Service() {
                             val requestBody =
                                 json.toRequestBody("application/json".toMediaTypeOrNull())
                             val request = Request.Builder()
-                                .url("https://api.rd.usesourceid.com/v1/api/customer/update-location")
+                                .url("https://api.rd.usesourceid.com/v1/api/customer/add-geotag")
                                 .addHeader("x-api-key", apiKey)
                                 .addHeader("x-auth-token", token)
                                 .post(requestBody)
