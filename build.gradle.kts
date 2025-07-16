@@ -1,9 +1,8 @@
 import org.gradle.api.publish.maven.MavenPublication
-import org.gradle.api.publish.PublishingExtension
 
 
 plugins {
-    id("com.android.library") version "8.3.1"
+    id("com.android.library") version "8.11.1"
     id("org.jetbrains.kotlin.android") version "1.9.0"
     id("kotlin-parcelize")
     id("maven-publish")
